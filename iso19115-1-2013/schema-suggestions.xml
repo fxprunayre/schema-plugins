@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<fields>	
-  <field name="cit:contactInstructions">
-    <suggest name="gco:CharacterString"/>
-    <suggest name="gcx:FileName"/>
-  </field>
-  
-	<field name="cit:otherCitationDetails">
-		<suggest name="gco:CharacterString"/>
-		<suggest name="gcx:FileName"/>
-		<suggest name="gcx:Anchor"/>
-	</field>
-	
-	
+<fields>
 	<field name="gcx:Anchor">
 		<suggest name="xlink:href"/>
 	</field>
@@ -26,10 +14,6 @@
 		<suggest name="gco:CharacterString"/>
 		<suggest name="mri:LanguageCode"/>
 	</field>
-	
-	<field name="gcx:FileName">
-		<suggest name="src"/>
-	</field> 
 	
 	<!-- Service -->
 	<field name="srv:coupledResource">
@@ -72,50 +56,25 @@
 	
 	
 	<!-- Contact info: suggest all by default. -->
-	<field name="cit:CI_ResponsibleParty">
-		<suggest name="cit:individualName"/>
-		<suggest name="cit:organisationName"/>
-		<suggest name="cit:positionName"/>
-		<suggest name="cit:contactInfo"/>
+	<field name="cit:CI_Individual">
+		<suggest name="cit:name"/>
+    <suggest name="cit:address"/>
 	</field>
 	
-	<field name="cit:CI_Contact">
-		<suggest name="cit:phone"/>
-		<suggest name="cit:address"/>
+	<field name="cit:CI_Organisation">
+    <suggest name="cit:name"/>
 	</field>
 	
 	<field name="cit:CI_Telephone">
-		<suggest name="cit:voice"/>
-		<suggest name="cit:facsimile"/>
+		<suggest name="cit:number"/>
+    <suggest name="cit:numberType"/>
 	</field>
 	
 	<field name="cit:CI_Address">
-		<suggest name="cit:deliveryPoint"/>
-		<suggest name="cit:city"/>
-		<suggest name="cit:administrativeArea"/>
-		<suggest name="cit:postalCode"/>
-		<suggest name="cit:country"/>
 		<suggest name="cit:electronicMailAddress"/>
 		</field>
 	
-	
-	<!-- INSPIRE Suggestion for contact suggest 
-		organisation name and email address as defined in metadata IR.
-		ie. less fields than in GeoNetwork default behaviour.
-	<field name="cit:CI_ResponsibleParty">
-		<suggest name="cit:organisationName"/>
-		<suggest name="cit:contactInfo"/>
-	</field>
-	
-	<field name="cit:CI_Contact">
-		<suggest name="cit:address"/>
-	</field>
-	
-	<field name="cit:CI_Address">
-		<suggest name="cit:electronicMailAddress"/>
-	</field>-->
-	
-	
+
 	
 	<!-- Expand optional element mri:type (mri:keyword is mandatory and will be expanded) -->
 	<field name="mri:MD_Keywords">
@@ -155,9 +114,7 @@
 	
 	
 	<field name="gex:EX_Extent">
-		<suggest name="gex:temporalElement"/>
 		<suggest name="gex:geographicElement"/>
-		<suggest name="gex:verticalElement"/>
 	</field>
 
 	<field name="gex:EX_TemporalExtent">

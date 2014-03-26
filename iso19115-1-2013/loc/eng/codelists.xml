@@ -2488,7 +2488,7 @@
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - -->
 	</codelist>
 	<!-- ==================================================== -->
-	<codelist name="gmd:MD_TopologyLevelCode">
+	<codelist name="msr:MD_TopologyLevelCode">
 		<entry>
 			<code>geometryOnly</code>
 			<label>Geometry only</label>

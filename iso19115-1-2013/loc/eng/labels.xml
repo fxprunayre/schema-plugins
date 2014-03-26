@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:noNamespaceSchemaLocation="../../../labels.xsd" xmlns:gco="http://www.isotc211.org/2005/gco"
-	xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:srv="http://www.isotc211.org/2005/srv"
-	xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts"
-	xmlns:gmx="http://www.isotc211.org/2005/gmx">
-
+	xsi:noNamespaceSchemaLocation="../../../labels.xsd">
 	<element name="gmd:MD_ScopeCode">
 		<label>Scope code</label>
 		<description>Class of information to which the referencing entity applies</description>
@@ -1184,7 +1180,7 @@
 		<description>Time period (including time zone) when individuals can contact the organization
             or individual</description>
 	</element>
-	<element name="gmd:identificationInfo" id="15.0">
+	<element name="mds:identificationInfo" id="15.0">
 		<label>Identification info</label>
 		<description>Basic information about the resource(s) to which the metadata
             applies</description>
@@ -2199,7 +2195,7 @@
 		<description>Name of the formally registered thesaurus or a similar authoritative source of
             keywords</description>
 	</element>
-	<element name="gmd:title" id="360.0">
+	<element name="cit:title" id="360.0">
 		<label>Title</label>
 		<description>Name by which the cited resource is known</description>
 		<condition>mandatory</condition>
