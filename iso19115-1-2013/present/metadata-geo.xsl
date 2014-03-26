@@ -98,7 +98,7 @@
     <xsl:template mode="iso19115-1-2013" match="gex:EX_GeographicBoundingBox" priority="2">
         <xsl:param name="schema"/>
         <xsl:param name="edit"/>
-        
+
         <!-- regions combobox -->
         <xsl:variable name="places">
           <xsl:if test="$edit=true() and /root/gui/regions/record">

@@ -58,6 +58,7 @@
     <for name="lan:languageCode" use="data-gn-language-picker"/>
 
     <for name="lan:country" use="data-gn-country-picker"/>
+    <for name="cit:country" use="data-gn-country-picker"/>
 
     <for name="mds:referenceSystemInfo" addDirective="data-gn-crs-selector"/>
 

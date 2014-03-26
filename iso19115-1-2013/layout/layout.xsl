@@ -15,6 +15,7 @@
   xmlns:cit="http://www.isotc211.org/2005/cit/1.0/2013-03-28"
   xmlns:gco="http://www.isotc211.org/2005/gco"
   xmlns:gmx="http://www.isotc211.org/2005/gmx"
+  xmlns:gts="http://www.isotc211.org/2005/gts"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:gml="http://www.opengis.net/gml/3.2"
   xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -30,7 +31,7 @@
   <!-- Visit all XML tree recursively -->
   <xsl:template mode="mode-iso19115-1-2013"
                 match="mds:*|mcc:*|mri:*|mrs:*|mrd:*|mco:*|msr:*|lan:*|
-                       gcx:*|gex:*|dqm:*|cit:*|srv:*"
+                       gcx:*|gex:*|dqm:*|cit:*|srv:*|gts:*"
                 priority="2">
     <xsl:param name="schema" select="$schema" required="no"/>
     <xsl:param name="labels" select="$labels" required="no"/>
