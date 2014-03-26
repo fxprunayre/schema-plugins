@@ -1,0 +1,209 @@
+<mds:MD_Metadata xmlns:mds="http://www.isotc211.org/2005/mds/1.0/2013-03-28"
+                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xmlns:cit="http://www.isotc211.org/2005/cit/1.0/2013-03-28"
+                 xmlns:gco="http://www.isotc211.org/2005/gco"
+                 xmlns:gts="http://www.isotc211.org/2005/gts"
+                 xmlns:mcc="http://www.isotc211.org/2005/mcc/1.0/2013-03-28"
+                 xmlns:mrd="http://www.isotc211.org/2005/mrd/1.0/2013-03-28"
+                 xmlns:lan="http://www.isotc211.org/2005/lan/1.0/2013-03-28"
+                 xmlns:mri="http://www.isotc211.org/2005/mri/1.0/2013-03-28"
+                 xmlns:gml="http://www.opengis.net/gml/3.2"
+                 xmlns:gss="http://www.isotc211.org/2005/gss"
+                 xmlns:msr="http://www.isotc211.org/2005/msr/1.0/2013-03-28"
+                 xmlns:gsr="http://www.isotc211.org/2005/gsr"
+                 xmlns:mas="http://www.isotc211.org/2005/mas/1.0/2013-03-28"
+                 xmlns:mco="http://www.isotc211.org/2005/mco/1.0/2013-03-28"
+                 xmlns:mex="http://www.isotc211.org/2005/mex/1.0/2013-03-28"
+                 xmlns:mpc="http://www.isotc211.org/2005/mpc/1.0/2013-03-28"
+                 xmlns:mrc="http://www.isotc211.org/2005/mrc/1.0/2013-03-28"
+                 xmlns:mrl="http://www.isotc211.org/2005/mrl/1.0/2013-03-28"
+                 xmlns:mrs="http://www.isotc211.org/2005/mrs/1.0/2013-03-28"
+                 xmlns:gex="http://www.isotc211.org/2005/gex/1.0/2013-03-28"
+                 xmlns:srv="http://www.isotc211.org/2005/srv/2.0/2013-03-28"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xmlns:geonet="http://www.fao.org/geonetwork"
+                 xsi:schemaLocation="http://www.isotc211.org/2005/mds/1.0/2013-03-28 http://www.isotc211.org/2005/mds/1.0/mds.xsd">
+  <mds:metadataIdentifier>
+    <mcc:MD_Identifier>
+      <mcc:code>
+        <gco:CharacterString>920c14f9-0738-48f1-9adc-89e685ad56a3</gco:CharacterString>
+      </mcc:code>
+      <mcc:codeSpace>
+        <gco:CharacterString>urn:uuid</gco:CharacterString>
+      </mcc:codeSpace>
+      <mcc:description>
+        <gco:CharacterString>uuid primary key used by GeoNetwork</gco:CharacterString>
+      </mcc:description>
+    </mcc:MD_Identifier>
+  </mds:metadataIdentifier>
+  <mds:metadataScope>
+    <mds:MD_MetadataScope>
+      <mds:resourceScope>
+        <mcc:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+                          codeListValue=""/>
+      </mds:resourceScope>
+      <mds:name gco:nilReason="missing">
+        <gco:CharacterString/>
+      </mds:name>
+    </mds:MD_MetadataScope>
+  </mds:metadataScope>
+  <mds:contact/>
+  <mds:dateInfo>
+    <cit:CI_Date>
+      <cit:date>
+        <gco:DateTime>2014-03-19T08:01:43</gco:DateTime>
+      </cit:date>
+      <cit:dateType>
+        <cit:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                             codeListValue="creation"/>
+      </cit:dateType>
+    </cit:CI_Date>
+  </mds:dateInfo>
+  <mds:dateInfo>
+    <cit:CI_Date>
+      <cit:date>
+        <gco:DateTime>2014-03-24T10:10:17</gco:DateTime>
+      </cit:date>
+      <cit:dateType>
+        <cit:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                             codeListValue="revision"/>
+      </cit:dateType>
+    </cit:CI_Date>
+  </mds:dateInfo>
+  <mds:metadataStandard>
+    <cit:CI_Citation>
+      <cit:title>
+        <gco:CharacterString>ISO/FDIS 19115-1:2013</gco:CharacterString>
+      </cit:title>
+    </cit:CI_Citation>
+  </mds:metadataStandard>
+  <mds:alternativeMetadataReference>
+    <cit:CI_Citation>
+      <cit:title gco:nilReason="missing">
+        <gco:CharacterString/>
+      </cit:title>
+    </cit:CI_Citation>
+  </mds:alternativeMetadataReference>
+  <mds:metadataLinkage>
+    <cit:CI_OnlineResource>
+      <cit:linkage gco:nilReason="missing">
+        <gco:CharacterString/>
+      </cit:linkage>
+      <cit:protocol gco:nilReason="missing">
+        <gco:CharacterString/>
+      </cit:protocol>
+      <cit:name gco:nilReason="missing">
+        <gco:CharacterString/>
+      </cit:name>
+      <cit:description gco:nilReason="missing">
+        <gco:CharacterString/>
+      </cit:description>
+      <cit:function>
+        <cit:CI_OnLineFunctionCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_OnLineFunctionCode"
+                                   codeListValue=""/>
+      </cit:function>
+      <cit:protocolRequest gco:nilReason="missing">
+        <gco:CharacterString/>
+      </cit:protocolRequest>
+    </cit:CI_OnlineResource>
+  </mds:metadataLinkage>
+  <mds:identificationInfo>
+    <mri:MD_DataIdentification>
+      <mri:citation>
+        <cit:CI_Citation>
+          <cit:title>
+            <gco:CharacterString>Empty 19115-1-2013 template</gco:CharacterString>
+          </cit:title>
+          <cit:alternateTitle>
+            <gco:CharacterString>Alt title</gco:CharacterString>
+          </cit:alternateTitle>
+          <cit:date>
+            <cit:CI_Date>
+              <cit:date>
+                <gco:Date>2014-03-05</gco:Date>
+              </cit:date>
+              <cit:dateType>
+                <cit:CI_DateTypeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#CI_DateTypeCode"
+                                     codeListValue=""/>
+              </cit:dateType>
+            </cit:CI_Date>
+          </cit:date>
+        </cit:CI_Citation>
+      </mri:citation>
+    </mri:MD_DataIdentification>
+  </mds:identificationInfo>
+  <mds:distributionInfo>
+    <mrd:MD_Distribution>
+      <mrd:description>
+        <gco:CharacterString>desc</gco:CharacterString>
+      </mrd:description>
+      <mrd:transferOptions>
+        <mrd:MD_DigitalTransferOptions>
+          <mrd:onLine>
+            <cit:CI_OnlineResource>
+              <cit:linkage>
+                <gco:CharacterString>http://lemonde.fr</gco:CharacterString>
+              </cit:linkage>
+              <cit:protocol gco:nilReason="missing">
+                <gco:CharacterString/>
+              </cit:protocol>
+              <cit:name gco:nilReason="missing">
+                <gco:CharacterString/>
+              </cit:name>
+              <cit:description gco:nilReason="missing">
+                <gco:CharacterString/>
+              </cit:description>
+            </cit:CI_OnlineResource>
+          </mrd:onLine>
+        </mrd:MD_DigitalTransferOptions>
+      </mrd:transferOptions>
+    </mrd:MD_Distribution>
+  </mds:distributionInfo>
+  <mds:dataQualityInfo>
+    <dqm:DQ_DataQuality xmlns:dqm="http://www.isotc211.org/2005/dqm/1.0/2013-03-28">
+      <dqm:scope>
+        <dqm:DQ_Scope>
+          <dqm:level>
+            <mcc:MD_ScopeCode codeList="http://standards.iso.org/ittf/PubliclyAvailableStandards/ISO_19139_Schemas/resources/codelist/ML_gmxCodelists.xml#MD_ScopeCode"
+                              codeListValue=""/>
+          </dqm:level>
+          <dqm:extent>
+            <gex:EX_Extent>
+              <gex:geographicElement>
+                <gex:EX_BoundingPolygon>
+                  <gex:polygon/>
+                </gex:EX_BoundingPolygon>
+              </gex:geographicElement>
+              <gex:geographicElement>
+                <gex:EX_GeographicBoundingBox>
+                  <gex:westBoundLongitude>
+                    <gco:Decimal>-180</gco:Decimal>
+                  </gex:westBoundLongitude>
+                  <gex:eastBoundLongitude>
+                    <gco:Decimal>17.523187994956977</gco:Decimal>
+                  </gex:eastBoundLongitude>
+                  <gex:southBoundLatitude>
+                    <gco:Decimal>-3.6035622462303394</gco:Decimal>
+                  </gex:southBoundLatitude>
+                  <gex:northBoundLatitude>
+                    <gco:Decimal>16.54963746700082</gco:Decimal>
+                  </gex:northBoundLatitude>
+                </gex:EX_GeographicBoundingBox>
+              </gex:geographicElement>
+              <gex:verticalElement>
+                <gex:EX_VerticalExtent>
+                  <gex:minimumValue>
+                    <gco:Real/>
+                  </gex:minimumValue>
+                  <gex:maximumValue>
+                    <gco:Real/>
+                  </gex:maximumValue>
+                </gex:EX_VerticalExtent>
+              </gex:verticalElement>
+            </gex:EX_Extent>
+          </dqm:extent>
+        </dqm:DQ_Scope>
+      </dqm:scope>
+    </dqm:DQ_DataQuality>
+  </mds:dataQualityInfo>
+</mds:MD_Metadata>
